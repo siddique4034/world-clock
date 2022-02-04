@@ -1,0 +1,48 @@
+body {
+    font-size: 15pt;
+    background-color: #FFCB1B;
+}
+
+.h1{
+  color: ghostwhite;
+  text-align: center;
+  font-family: Rowdies;
+}
+.mainbox{
+  color: ghostwhite;
+  border-radius: 20px;
+  font-family: josefin sans;
+  margin: 25px;
+  background-color: #FBC715;
+  box-shadow: 0px 10px 15px #5A5853;
+  animation: animate 5s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+.box{
+  padding: 30px;
+}
+
+.btn{
+  text-decoration: none;
+  color: floralwhite;
+  background-color: #FFCB1B;
+  box-shadow: 0px 4px 4px #5A5853;
+  border-radius: 10px;
+  padding: 8px;
+  width: 25%;
+  height: 200px;
+}
+
+.p{
+  color: ghostwhite;
+  font-family: Roboto mono;
+}
